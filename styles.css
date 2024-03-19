@@ -1,0 +1,259 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edeeee;
+    color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #123646;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.main2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+h1 {
+    color: #edeeee;
+    font-size: 40px;
+    padding-left: 50px;
+
+}
+h2 {
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+dl {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+dt {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+dd {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+
+    padding: 20px 40px;
+    background-color: #123646;
+    color: #edeeee;
+    border: none;
+    margin: 30px;
+    transition: background-color 0.3s ease;
+
+    position: relative; 
+    left: 20px;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.goBack {
+    font-size: 20px;
+
+    padding: 20px 40px;
+    background-color: #0f0f0f;
+    color: #edeeee;
+    border: none;
+    margin: 30px;
+    transition: background-color 0.3s ease;
+
+    position: relative; 
+
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #123646;
+    color: #edeeee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.goTo:hover {
+    background-color: #0f0f0f;
+}
+.goBack:hover {
+    background-color: #123646;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+    
+}
+
+.imageHor {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: auto;
+    
+}
+
+.imageHor2 {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: auto;
+    
+}
+
+.imageHor3 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 10px;
+
+    border-radius: 20px;
+
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #123646;
+    color: white;
+}
+
+iframe {
+    border-radius: 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+
+input[type="text"] {
+    padding: 20px 40px;
+    background-color: #edeeee;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+
+
+    
+}
+
+input[type="submit"] {
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color:#0f0f0f;
+    color: #edeeee;
+    border: none;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+ form {
+    margin-right: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #123646;
+}
+
+
+nav {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: -2.6vw;
+
+}
+
+nav ul {
+    list-style-type: none; /* Прибираємо маркери списку */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Clearfix для проблеми з висотою */
+}
+
+nav li {
+    float: left; /* Робимо елементи списку горизонтальними */
+}
+
+nav li a {
+    display: block; /* Конвертуємо посилання в блокові елементи */
+    color: #edeeee; /* Колір тексту посилань */
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 73px; /* Відступ навколо тексту посилань */
+    text-decoration: none; /* Прибираємо підкреслення */
+    background-color: #0f0f0f;
+    transition: background-color 0.3s ease;
+
+}
+
+nav li a:hover {
+    background-color: #123646;
+}
+
+
