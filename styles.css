@@ -256,4 +256,13 @@ nav li a:hover {
     background-color: #123646;
 }
 
-
+.tooltip {
+    position: fixed;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font: italic 14px/1.3 sans-serif;
+    color: #edeeee;
+    background-color: #0f0f0f;
+  }
